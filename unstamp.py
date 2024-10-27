@@ -13,8 +13,8 @@ pic_dir = "image/"
 cut_ratios = {
     'top': 0.075,  # 上边裁切7.5%
     'bottom': 0.05,  # 下边裁切5%
-    'left': 0,  # 左边裁切10%
-    'right': 0  # 右边裁切10%
+    'left': 0,  # 左边裁切0%
+    'right': 0  # 右边裁切0%
 }
 
 
@@ -27,7 +27,8 @@ class pdf():
         pdf = fitz.open(pdf_path)
         for page in pdf:
             rotate = int(0)
-            zoom_x, zoom_y = 2,2
+            #调整图片分辨率，数字越大，越清晰，耗时越长，推荐值，2或3
+            zoom_x, zoom_y = 3,3
             trans = fitz.Matrix(zoom_x, zoom_y).prerotate(rotate)
             pixmap = page.get_pixmap(matrix=trans, alpha=False)
 
