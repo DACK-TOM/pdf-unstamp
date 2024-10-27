@@ -1,3 +1,7 @@
+![618a05e829940d0eedbd1dc6c0aaa582](https://github.com/user-attachments/assets/505d9b4a-6040-49df-a300-9292f761f4a3)
+去水印并剪切后
+![a45f8d0939e0ccac75480726ff316e53](https://github.com/user-attachments/assets/c9ebd8fb-678f-4acf-8d00-fe8e36149a13)
+
 RGB测试
 
 1. 图片转为无压缩bmp格式
