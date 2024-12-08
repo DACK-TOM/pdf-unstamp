@@ -2,6 +2,10 @@
 去水印并剪切后
 ![a45f8d0939e0ccac75480726ff316e53](https://github.com/user-attachments/assets/c9ebd8fb-678f-4acf-8d00-fe8e36149a13)
 
+![image](https://github.com/user-attachments/assets/e67306ca-e0ad-4842-99db-427d400c10b6)
+after
+![image](https://github.com/user-attachments/assets/77fb8796-cf53-4e46-9f74-ade02a025bff)
+
 RGB测试
 
 1. 图片转为无压缩bmp格式
